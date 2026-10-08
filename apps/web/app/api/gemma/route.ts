@@ -4,8 +4,11 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
 
+    const backendUrl =
+      process.env.FASTAPI_BASE_URL || "http://127.0.0.1:8010";
+
     const response = await fetch(
-      "http://127.0.0.1:8010/api/ai/explain",
+      `${backendUrl}/api/ai/explain`,
       {
         method: "POST",
         headers: {
