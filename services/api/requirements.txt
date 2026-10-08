@@ -5,3 +5,4 @@ pydantic-settings
 
 opencv-python-headless
 python-multipart
+google-genai
