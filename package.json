@@ -1,0 +1,14 @@
+{
+  "name": "unravel-ai",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "web": "npm --workspace apps/web run dev",
+    "web:build": "npm --workspace apps/web run build",
+    "web:lint": "npm --workspace apps/web run lint",
+    "web:typecheck": "npm --workspace apps/web run typecheck"
+  }
+}

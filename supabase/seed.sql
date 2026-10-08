@@ -1,0 +1,2 @@
+-- Placeholder seed file for local Supabase setup.
+-- Add initial data here when the data model is ready.
